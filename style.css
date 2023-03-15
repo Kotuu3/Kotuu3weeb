@@ -4,13 +4,44 @@
 }
 
 body {
-    background-color: 111111;
+    background-color: #111111;
 }
 
+
+.disord-widget {
+    position: absolute;
+    top: 60px;
+    left: 1400px;
+  }
+  
 .main .nick {
-    margin-top: -195px;
-    padding-left: 250px;
+    display: inline-block;
+    margin-left: 20px; 
+    color: #FFC266;
+
 }
+
+.linki a {
+    text-decoration: none;
+    color: #CCCCCC;
+    margin-top: -10px;
+    display: block;
+    margin-bottom: 11px;
+}
+
+.linki a:hover {
+    font-size: 24px;
+    color: #FFC266; /* change color on hover */
+    text-decoration: underline; /* add underline on hover */
+  }
+
+.main img {
+    float: left;
+    box-shadow: 5px 5px 5px rgba(59, 56, 56, 0.5);
+}
+
+
+
 
 .main {
     padding-top: 50px;
